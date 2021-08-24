@@ -1,0 +1,29 @@
+export enum ActionConstant {
+  INSERT_NEW_ROW_TO_THE_END = 'INSERT_NEW_ROW_TO_THE_END',
+  INSERT_NEW_COLUMN_TO_THE_END = 'INSERT_NEW_COLUMN_TO_THE_END',
+  SET_CELL_NEW_VALUE = 'SET_CELL_NEW_VALUE',
+  SET_CURSOR_POSITION = 'SET_CURSOR_POSITION',
+  MOVE_CURSOR_POSITION = 'MOVE_CURSOR_POSITION',
+  INSERT_ROW_ABOVE_OR_BELOW = 'INSERT_ROW_ABOVE_OR_BELOW',
+  INSERT_COLUMN_LEFT_OR_RIGHT = 'INSERT_COLUMN_LEFT_OR_RIGHT',
+  REMOVE_ROW = 'REMOVE_ROW',
+  REMOVE_COLUMN = 'REMOVE_COLUMN',
+  RESIZE_COLUMN = 'RESIZE_COLUMN',
+}
+
+export enum InsertRowPlacement {
+  ABOVE = 0,
+  BELOW = 1,
+}
+
+export enum InsertColumnPlacement {
+  LEFT = 0,
+  RIGHT = 1,
+}
+
+export enum CursorMovement {
+  UP = 'ArrowUp',
+  DOWN = 'ArrowDown',
+  LEFT = 'ArrowLeft',
+  RIGHT = 'ArrowRight',
+}
