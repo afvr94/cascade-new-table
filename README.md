@@ -126,3 +126,8 @@ If you use Visual Studio Code as your text editor/IDE, you will find the followi
   
 - React table
   https://react-table.tanstack.com/docs/
+  
+  
+  ## Challenge PDF
+  [Cascade New Table.pdf](https://github.com/afvr94/cascade-new-table/files/7041872/Cascade.New.Table.pdf)
+
