@@ -1,15 +1,5 @@
-# Cascade New Table 📜
-
-<img width="501" alt="Screen Shot 2021-06-23 at 9 19 33 AM" src="https://user-images.githubusercontent.com/22084484/123103601-2cb5c600-d404-11eb-8e2f-37c3cfcc977a.png">
-
-## What is Cascade?
-The Cascade product allows users to easily ingest their own data, regardless of its source - flat files, db connections, SaaS platforms. After data is ingested, the analyst then has the ability to clean, wrangle, and build models on the data using a toolkit-oriented user experience. The tools range from more simplistic tools like pivot, join, transform, and transpose to tools that start to flirt towards data science - regression modeling, predictive analytics, etc.
-
-## Why this project needed?
-As part of Cascade toolkit, the user is allowed to create and author a new table directly in a Cascade workflow. This is very similar to a spreadsheet in Excel. You will find this necessary if you’re doing data cleansing and want to map a set of records to a new field (e.g. mapping all retailers to a retail channel). A workaround is to author a new table in Excel, export, and import back into Cascade. However, this is cumbersome and Cascade tries to simplify things as much as possible.
-
 ## About project
-This is the new table funcionality for Cascade. Its a React application created by [`create-react-app`](https://create-react-app.dev/) with typescript which includes everything needed. The application is using funcions and hooks for components. The frontend is styled using [`styled-components`](https://styled-components.com/) as our base for css. For state management the project is using React's [`useReducer`](https://reactjs.org/docs/hooks-reference.html#usereducer) and [`useContext`](https://reactjs.org/docs/hooks-reference.html#usecontext) and for immutability in the reducer is using [`immer`](https://immerjs.github.io/immer/)
+This is project that you can create table like excel. Its a React application created by [`create-react-app`](https://create-react-app.dev/) with typescript which includes everything needed. The application is using funcions and hooks for components. The frontend is styled using [`styled-components`](https://styled-components.com/) as our base for css. For state management the project is using React's [`useReducer`](https://reactjs.org/docs/hooks-reference.html#usereducer) and [`useContext`](https://reactjs.org/docs/hooks-reference.html#usecontext) and for immutability in the reducer is using [`immer`](https://immerjs.github.io/immer/)
 
 ## Setup
 
@@ -127,7 +117,3 @@ If you use Visual Studio Code as your text editor/IDE, you will find the followi
 - React table
   https://react-table.tanstack.com/docs/
   
-  
-## Challenge PDF
-[Cascade New Table.pdf](https://github.com/afvr94/cascade-new-table/files/7041872/Cascade.New.Table.pdf)
-
